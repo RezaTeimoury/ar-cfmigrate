@@ -1,0 +1,35 @@
+{
+  "name": "arvancloud/ar-cfmigrate",
+  "description": "PHP binding for v4 of the ArvanCloud Client API.",
+  "type": "library",
+  "require": {
+    "guzzlehttp/guzzle": "^7.0.1",
+    "php": ">=7.2.5",
+    "psr/http-message": "~1.0",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7"
+  },
+  "authors": [
+    {
+      "name": "Reza Teimoury",
+      "email": "reza@teimoury.ir"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "AR\\CFM\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+        "tests/"
+    ]
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
