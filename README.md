@@ -16,6 +16,13 @@ User Cloudflare API Token And Email Address
 The recommended way to install ar-cfmigrate is through
 [Composer](https://getcomposer.org/).
 
+* Download files and extract to directory
+* Rename the htaccess file to .htaccess
+
+and ...
+
 ```bash
 composer install
 ```
+
+
