@@ -1,0 +1,10 @@
+RewriteEngine on
+Options +MultiViews
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+DirectoryIndex platform/analyzer.php
+RewriteRule . /platform/analyzer.php [L]
+
+
